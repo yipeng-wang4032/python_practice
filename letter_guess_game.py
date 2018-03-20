@@ -1,3 +1,10 @@
+# predefined items for user to guess
+# each round script will pick up an item randomly
+# players need to guess each letters in this secret word at each time
+# gameover when the number of wrong guess letters reaches 7
+# Win, when user guessed all the letters in the secret word
+# In the end , either continue play another round, or quit the game.
+
 import os
 import random
 import sys
